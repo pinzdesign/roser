@@ -1,0 +1,26 @@
+img {
+  max-width: 100%;
+}
+
+h1 {
+  text-align: center;
+  color: #dd0000;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+}
+
+main {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 2em;
+}
+
+.forsvind {
+  opacity: 0;
+  scale: 1.2;
+  translate: -10% -100%;
+  rotate: 30deg;
+  transition: 0.5s linear;
+}
